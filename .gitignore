@@ -1,0 +1,5 @@
+/node_modules/
+/pages/
+/out/
+/.next/
+.DS_Store
