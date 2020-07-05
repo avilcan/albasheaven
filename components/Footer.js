@@ -111,11 +111,6 @@ class Footer extends Component {
                                 </div> */}
                                 <div className="col footer-item footer-item4">
                                     <h3 className="widget__title">contact</h3>
-                                    <ul className="contact__info">
-                                        <li>Koolzaadhof 18a 8308 AR NAGELE, The Netherlands</li>
-                                        <li><a href="mailto:esther.esther.2121@gmail.com">esther.esther.2121@gmail.com</a></li>
-                                        <li><a href="tel:0620398116">0620398116</a></li>
-                                    </ul>
                                     <div className="footer__social">
                                         <ul>
                                             {/* <li><a href="#"><i className="fa fa-twitter"></i></a></li> */}
@@ -124,6 +119,17 @@ class Footer extends Component {
                                             <li><a href="#"><i className="fa fa-instagram"></i></a></li> */}
                                         </ul>
                                     </div>
+                                    <ul className="contact__info">
+                                        {/* <li>Koolzaadhof 18a 8308 AR NAGELE, The Netherlands</li>
+                                        <li><a href="mailto:esther.esther.2121@gmail.com">esther.esther.2121@gmail.com</a></li> */}
+                                        <li>
+                                            <p>
+                                                <i className="fa fa-mobile"></i>
+                                                <a className="contact-phone-no" href="tel:0620398116">0620398116</a>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -134,6 +140,7 @@ class Footer extends Component {
                                 <div className="col-lg-12">
                                     <div className="copyright-desc">
                                         <p>© Copyright 2020 by <a href="#">Alba's Heaven by Marijke Klein</a></p>
+                                        <p className="icons-attribute-section">Icon made by Freepik from www.flaticon.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -141,9 +148,9 @@ class Footer extends Component {
                     </div>
                 </section>
 
-                <div onClick={this.scrollTop} id="back-to-top" className={this.state.scrollBtn ? 'back-btn-shown' : ''}>
+                {/* <div onClick={this.scrollTop} id="back-to-top" className={this.state.scrollBtn ? 'back-btn-shown' : ''}>
                     <i className="fa fa-angle-up" title="Go top"></i>
-                </div>
+                </div> */}
 
             </div>
         );
