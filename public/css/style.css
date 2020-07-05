@@ -4788,7 +4788,7 @@ html {
 }
 
 .coming-soon-container .content {
-    width: 600px;
+    width: 90vw;
     margin: 0 auto;
     position: absolute;
     top: 50%;
@@ -4804,8 +4804,8 @@ html {
 .coming-soon-container .text > label {
     color: #e36955;
     font-family: "Playfair Display", sans-serif;
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 45px;
     font-weight: 900;
 }
 
