@@ -2292,8 +2292,14 @@ a:hover {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+.causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .inner-causes-img-item {
+    height: 160px;
+}
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .inner-causes-img-box img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-inner-content-2 .presentation-block {
     background-color: #f2f0ec;

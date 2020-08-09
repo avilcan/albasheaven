@@ -4,6 +4,7 @@ import NavOne from "../components/NavOne";
 import Footer from "../components/Footer";
 import SliderOne from "../components/SliderOne";
 import EntryArea from "../components/EntryArea";
+import CausesDetail from "../components/CausesDetail";
 
 const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ const HomePage = () => {
           <NavOne />
           <SliderOne />
           <EntryArea />
+          <CausesDetail />
           <Footer />
         </Layout>
     );

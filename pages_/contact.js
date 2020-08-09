@@ -9,11 +9,11 @@ import Map from "../components/Map";
 
 const ContactPage = () => {
     return (
-        <Layout pageTitle="Oxpitan | Contact">
+        <Layout pageTitle="Alba's Heaven by Marijke Klein">
             <NavOne />
             <PageHeader title="Contact" />
             <Contact />
-            <Map />
+            {/* <Map /> */}
             <Footer />
         </Layout>
     );

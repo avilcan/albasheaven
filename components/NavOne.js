@@ -61,7 +61,7 @@ class NavOne extends Component {
                                         <div className="info-box info-box-1 d-flex align-items-center">
                                             <ul className="d-flex align-items-center">
                                                 <li><a href="#"><i
-                                                    className="fa fa-envelope"></i>esther.esther.2121@gmail.com</a></li>
+                                                    className="fa fa-envelope"></i>albasheavenmk@gmail.com</a></li>
                                                 <li><a href="#"><i className="fa fa-phone-square"></i>0620398116</a>
                                                 </li>
                                             </ul>
@@ -111,14 +111,12 @@ class NavOne extends Component {
                                                 <nav className="main-navigation">
                                                     <ul>
                                                         <li className="active"><Link href="/"><a>Home</a></Link></li>
-                                                        {/* <li><a href="#">causes</a>
-                                                            <ul className="dropdown-menu-item">
-                                                                <li><Link href="/causes"><a>causes</a></Link></li>
-                                                                <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
-                                                                <li><Link href="/donate"><a>donate now</a></Link></li>
-                                                            </ul>
+                                                        <li>
+                                                            <Link href="/adoption">
+                                                                <a href="#">{t('common:adoption')}</a>
+                                                            </Link>
                                                         </li>
-                                                        <li><a href="#">events</a>
+                                                        {/* <li><a href="#">events</a>
                                                             <ul className="dropdown-menu-item">
                                                                 <li><Link href="/events"><a>events</a></Link></li>
                                                                 <li><Link href="/events-detail"><a>events detail</a></Link></li>
@@ -159,15 +157,12 @@ class NavOne extends Component {
                         <div className="side-menu-wrap">
                             <ul className="side-menu-ul">
                                 <li className="sidenav__item"><a href="/">home</a></li>
-                                {/* <li className="sidenav__item"><a href="#">causes</a>
-                                    <span className="menu-plus-icon"></span>
-                                    <ul className="side-sub-menu">
-                                        <li><Link href="/causes"><a>causes</a></Link></li>
-                                        <li><Link href="/causes-detail"><a>causes detail</a></Link></li>
-                                        <li><Link href="/donate"><a>donate now</a></Link></li>
-                                    </ul>
+                                <li className="sidenav__item">
+                                    <Link href="/adoption">
+                                        <a href="#">{t('common:adoption')}</a>
+                                    </Link>
                                 </li>
-                                <li className="sidenav__item"><a href="#">event</a>
+                                {/* <li className="sidenav__item"><a href="#">event</a>
                                     <span className="menu-plus-icon"></span>
                                     <ul className="side-sub-menu">
                                         <li><Link href="/events"><a>events</a></Link></li>
