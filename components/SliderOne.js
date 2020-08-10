@@ -33,7 +33,7 @@ const SliderOne = () => {
                                         <div className="slider-heading">
                                             <p className="slider__meta">{t('home:welcome')}</p>
                                             <h2 className="slider__title">{t('common:page-header')}</h2>
-                                            <a href="#" className="theme-btn">{t('common:read_more')}</a>
+                                            <a href="#cause-detail" className="theme-btn">{t('common:read_more')}</a>
                                         </div>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@ const SliderOne = () => {
                                         <div className="slider-heading">
                                             <p className="slider__meta">{t('home:welcome')}</p>
                                             <h2 className="slider__title">{t('common:rescue')}</h2>
-                                            <a href="#" className="theme-btn">{t('common:read_more')}</a>
+                                            <a href="#cause-detail" className="theme-btn">{t('common:read_more')}</a>
                                         </div>
                                     </div>
                                 </div>

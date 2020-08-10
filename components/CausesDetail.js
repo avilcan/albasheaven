@@ -5,7 +5,7 @@ import useTranslation from 'next-translate/useTranslation';
 const CausesDetail = () => {
     const {t} = useTranslation();
     return (
-        <section className="causes-detail-area">
+        <section className="causes-detail-area" id="cause-detail">
             <div className="container">
                 <div className="row blog-content-wrap">
                     <div className="col-lg-8">

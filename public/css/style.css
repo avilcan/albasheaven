@@ -176,6 +176,12 @@ a:hover {
     line-height: 60px;
     font-weight: 700;
 }
+
+.section-heading .section__title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+}
 .section-heading .section__meta {
     color: #863bae;
     font-size: 14px;
@@ -1526,6 +1532,10 @@ a:hover {
     z-index: 1;
     padding-top: 90px;
     padding-bottom: 120px;
+}
+
+.service-area .adopt-section {
+    padding-top:125px;
 }
 /*=== heart-icon ===*/
 .service-area .heart-icon {

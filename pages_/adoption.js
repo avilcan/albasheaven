@@ -10,7 +10,7 @@ const AdoptionPage = () => {
     const {t} = useTranslation();
     return (
         <Layout pageTitle="Alba's Heaven by Marijke Klein">
-            <NavOne />
+            <NavOne currentPage="adoption"/>
             <PageHeader title={t('adoption:information')} />
             <VolunteerArea />
             <Footer />

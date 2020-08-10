@@ -10,7 +10,7 @@ import Map from "../components/Map";
 const ContactPage = () => {
     return (
         <Layout pageTitle="Alba's Heaven by Marijke Klein">
-            <NavOne />
+            <NavOne currentPage="contact"/>
             <PageHeader title="Contact" />
             <Contact />
             {/* <Map /> */}

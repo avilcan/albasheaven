@@ -23,22 +23,44 @@ const VolunteerArea = () => {
                             <div className="section-icon">
                                 <img src="/images/section-icon.png" alt="section-icon" />
                             </div>
-                            <h2 className="section__title">{t('adoption:adoption_procedure')}</h2>
+                            <h2 className="section__title">{t('common:adoption_procedure')}</h2>
                             <div className="section__meta">
                                 <span><a href="/adoption/Questionare.docx" download>{t('adoption:questionare')}</a> | </span>
                                 <span><a href="/adoption/Adoption_agreement.docx" download>{t('adoption:contract')}</a></span>
                             </div>
                         </div>
-                    </div>
-                </div> 
-                <div className="row">
-                    <div className="col-lg-8 mx-auto">
                         <p className="section__desc">{t('adoption:instructions')}</p>
                         <p className="section__desc">{t('adoption:instructions_2')}</p>
                         <p className="section__desc">{t('adoption:instructions_3')}</p>
                         <p className="section__desc">{t('adoption:instructions_4')}</p>
                     </div>
-                </div>                   
+                </div>
+                <div className="row adopt-section" id="adopt-nl">
+                    <div className="section-heading service-heading">
+                            <div className="section-icon">
+                                <img src="/images/section-icon.png" alt="section-icon" />
+                            </div>
+                            <div className="col-lg-8 mx-auto">
+                                <h3 className="section__title">{t('common:adopt_from_nl')}</h3>
+                                <p className="section__desc">{t('adoption:adopt_nl_description')}</p>
+                            </div>
+                    </div>
+                </div> 
+                <div className="row adopt-section" id="adopt-ro">
+                    <div className="section-heading service-heading">
+                            <div className="section-icon">
+                                <img src="/images/section-icon.png" alt="section-icon" />
+                            </div>
+                            <div className="col-lg-8 mx-auto">
+                                <h3 className="section__title">{t('common:adopt_from_ro')}</h3>
+                                <p className="section__desc">{t('adoption:adopt_ro_description_1')}</p>
+                                <p className="section__desc">{t('adoption:adopt_ro_description_2')}</p>
+                                <p className="section__desc">{t('adoption:adopt_ro_description_3')}</p>
+                                <p className="section__desc">{t('adoption:adopt_ro_description_4')}</p>
+                                <p className="section__desc">{t('adoption:adopt_ro_description_5')}</p>
+                            </div>
+                    </div>
+                </div>                       
             </div>
         </section>
     );

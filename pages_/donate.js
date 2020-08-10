@@ -8,7 +8,7 @@ import Donate from "../components/Donate";
 const DonatePage = () => {
     return (
         <Layout pageTitle="Alba's Heaven by Marijke Klein">
-            <NavOne />
+            <NavOne currentPage="donate"/>
             <PageHeader title="Donate" />
             <Donate />
             <Footer />

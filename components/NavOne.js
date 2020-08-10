@@ -50,6 +50,7 @@ class NavOne extends Component {
 
     render() {
         const { t, lang } = this.props.i18n
+        const { currentPage } = this.props;
         return (
             <div>
                 <header className="header-area">
@@ -112,9 +113,12 @@ class NavOne extends Component {
                                                     <ul>
                                                         <li className="active"><Link href="/"><a>Home</a></Link></li>
                                                         <li>
-                                                            <Link href="/adoption">
-                                                                <a href="#">{t('common:adoption')}</a>
-                                                            </Link>
+                                                            <a href="/adoption">{t('common:adoption')}</a>
+                                                            <ul className="dropdown-menu-item">
+                                                                <li><Link href={currentPage === 'adoption' ? '': '/adoption'}><a>{t('common:adoption_procedure')}</a></Link></li>
+                                                                <li><Link href={currentPage === 'adoption' ? '#adopt-nl': '/adoption#adopt-nl'}><a>{t('common:adopt_from_nl')}</a></Link></li>
+                                                                <li><Link href={currentPage === 'adoption' ? '#adopt-ro': '/adoption#adopt-ro'}><a>{t('common:adopt_from_ro')}</a></Link></li>
+                                                            </ul>
                                                         </li>
                                                         {/* <li><a href="#">events</a>
                                                             <ul className="dropdown-menu-item">

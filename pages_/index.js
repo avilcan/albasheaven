@@ -9,7 +9,7 @@ import CausesDetail from "../components/CausesDetail";
 const HomePage = () => {
     return (
         <Layout pageTitle="Alba's Heaven by Marijke Klein">
-          <NavOne />
+          <NavOne currentPage="home"/>
           <SliderOne />
           <EntryArea />
           <CausesDetail />
