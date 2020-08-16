@@ -1,15 +1,42 @@
 import React from 'react';
-import Link from 'next/link';
+import useTranslation from 'next-translate/useTranslation';
 
 const Donate = () => {
+    const {t} = useTranslation();
     return (
         <section className="donate-area2">
             <div className="container">
                 <div className="row donate-content-wrap">
-                    <div className="col-lg-8">
+                    <div className="col-lg-12">
                         <div className="donate-item">
-                            <h3 className="donate__title">Enter Your Donation</h3>
-                            <div className="form-shared">
+                            <h3 className="donate__title">{t('donate:help_to_albasheaven')}</h3>
+                            <p>{t('donate:cause_description')}</p>
+                            <p>{t('donate:remote_adoption')}</p>
+                            <p>{t('donate:donation_appreciated')}</p>
+                            <p>{t('donate:donation_instructions')}</p>
+                            <div className="col-lg-4 bank-details">
+                                <div className="sidebar-shared">
+                                    <div className="side-widget blog-content">
+                                        <div className="blog-item">
+                                            <div className="blog-img">
+                                                <img src="/images/img15.jpg" alt="" />
+                                            </div>
+                                            <div className="blog-inner-content">
+                                                <h3 className="blog__title">Bank
+                                                </h3>
+                                                <ul className="blog__list">
+                                                    <li><i className="fa fa-address-card-o"></i> A.M. KLEIN - VAN DER STAAY</li>
+                                                    <li>NL06RABO030695565</li>
+                                                    <li>{t('donate:donation_details')}</li>
+                                                </ul>
+                                                <p className="blog__desc">{t('donate:thank_you')}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* <h3 className="donate__title">Enter Your Donation</h3> */}
+                            {/* <div className="form-shared">
                                 <form action="#">
                                     <div className="row">
                                         <div className="col-lg-12">
@@ -21,9 +48,9 @@ const Donate = () => {
                                         </div>
                                     </div>
                                 </form>
-                            </div>
+                            </div> */}
                         </div>
-                        <div className="donate-item">
+                        {/* <div className="donate-item">
                             <h3 className="donate__title">Personal Info</h3>
                             <div className="form-shared">
                                 <form action="#">
@@ -128,9 +155,9 @@ const Donate = () => {
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className="col-lg-4">
+                    {/* <div className="col-lg-4">
                         <div className="sidebar-shared">
                             <div className="side-widget blog-content">
                                 <div className="blog-item">
@@ -164,7 +191,7 @@ const Donate = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

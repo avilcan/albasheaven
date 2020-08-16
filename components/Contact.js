@@ -78,7 +78,7 @@ const Contact = () => {
                         <div className="contact-item contact-item3">
                             <h3 className="contact__title">SASKIA - {t('contact:volunteer')}</h3>
                             <p className="contact__desc">
-                                <div>Wahtsapp: 06 34 24 51 16</div>
+                                <div>Wahtsapp: 06 83 89 70 02</div>
                                 <div>albasheavensl@gmail.com</div>
                             </p>
                         </div>

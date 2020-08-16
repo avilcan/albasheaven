@@ -24,15 +24,15 @@ const VolunteerArea = () => {
                                 <img src="/images/section-icon.png" alt="section-icon" />
                             </div>
                             <h2 className="section__title">{t('common:adoption_procedure')}</h2>
-                            <div className="section__meta">
-                                <span><a href="/adoption/Questionare.docx" download>{t('adoption:questionare')}</a> | </span>
-                                <span><a href="/adoption/Adoption_agreement.docx" download>{t('adoption:contract')}</a></span>
-                            </div>
                         </div>
                         <p className="section__desc">{t('adoption:instructions')}</p>
                         <p className="section__desc">{t('adoption:instructions_2')}</p>
                         <p className="section__desc">{t('adoption:instructions_3')}</p>
                         <p className="section__desc">{t('adoption:instructions_4')}</p>
+                        <div className="section__meta">
+                            <span><a href="/adoption/Vragenlijst.docx" download>{t('adoption:questionare')}</a> | </span>
+                            <span><a href="/adoption/Adoptieoveenkomt.docx" download>{t('adoption:contract')}</a></span>
+                        </div>
                     </div>
                 </div>
                 <div className="row adopt-section" id="adopt-nl">

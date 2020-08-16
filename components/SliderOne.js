@@ -31,8 +31,7 @@ const SliderOne = () => {
                                 <div className="row">
                                     <div className="col-md-7">
                                         <div className="slider-heading">
-                                            <p className="slider__meta">{t('home:welcome')}</p>
-                                            <h2 className="slider__title">{t('common:page-header')}</h2>
+                                            <h2 className="slider__title">{t('home:welcome')}</h2>
                                             <a href="#cause-detail" className="theme-btn">{t('common:read_more')}</a>
                                         </div>
                                     </div>

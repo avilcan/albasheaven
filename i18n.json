@@ -9,6 +9,7 @@
     "/": ["home"],
     "/comingSoon": ["home", "coming-soon"],
     "/adoption": ["adoption"],
-    "/contact":["contact"]
+    "/contact":["contact"],
+    "/donate": ["donate"]
   }
 }

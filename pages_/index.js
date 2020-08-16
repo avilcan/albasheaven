@@ -11,7 +11,7 @@ const HomePage = () => {
         <Layout pageTitle="Alba's Heaven by Marijke Klein">
           <NavOne currentPage="home"/>
           <SliderOne />
-          <EntryArea />
+          {/* <EntryArea /> */}
           <CausesDetail />
           <Footer />
         </Layout>

@@ -48,6 +48,10 @@ class NavOne extends Component {
 
     }
 
+    onLocaleChange = (locale) => {
+        console.log(locale)
+    }
+
     render() {
         const { t, lang } = this.props.i18n
         const { currentPage } = this.props;
@@ -141,8 +145,11 @@ class NavOne extends Component {
                                                                 <li><Link href="/sponsor"><a>sponsors</a></Link></li>
                                                             </ul>
                                                         </li> */}
+                                                        <li><Link href="/donate"><a>{t('common:donate')}</a></Link></li>
                                                         <li><Link href="/contact"><a>contact</a></Link></li>
                                                     </ul>
+                                                    
+                                                    {/* <ReactFlagsSelect defaultCountry="NL" countries={["NL", "GB","RO"]} onSelect={this.onLocaleChange} /> */}
                                                 </nav>
                                             </div>
                                         </div>
@@ -190,6 +197,7 @@ class NavOne extends Component {
                                         <li><Link href="/sponsor"><a>sponsors</a></Link></li>
                                     </ul>
                                 </li> */}
+                                <li className="sidenav__item"><Link href="/donate"><a>{t('common:donate')}</a></Link></li>
                                 <li className="sidenav__item"><Link href="/contact"><a>contact</a></Link></li>
                             </ul>
                             <ul className="side-social">

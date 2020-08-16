@@ -980,11 +980,11 @@ a:hover {
     transform: translateY(-50%);
 }
 .slider-area .homepage-slide1 .owl-dots div {
-    width: 14px;
+    width: 30px;
     height: 20px;
     margin-bottom: 10px;
-    background-color: #fff;
-    opacity: .4;
+    background-color: #f1ae44;
+    opacity: .8;
     filter: alpha(opacity=40);
     position: relative;
     border: none;
@@ -1005,7 +1005,7 @@ a:hover {
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #fff;
+    background-color: #f1ae44;
     -webkit-transform-origin: bottom left;
     transform-origin: bottom left;
     -webkit-transform: skew(-25deg,0deg);
@@ -1210,6 +1210,10 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.donate-item .bank-details {
+    padding-left: 0px;
+}
+
 .donate-area .donate-item-img figure img {
     width: 100%;
 }
@@ -2226,7 +2230,6 @@ a:hover {
    CAUSES DETAIL AREA
  =============================*/
 .causes-detail-area {
-    padding-top: 120px;
     padding-bottom: 120px;
 }
 .causes-detail-area .blog-content-wrap .blog-content .blog-item .blog-img img {
@@ -4156,6 +4159,7 @@ a:hover {
     font-weight: 800;
     font-size: 26px;
     margin-bottom: 40px;
+    min-height: 62px;
 }
 .contact-area .contact-detail-action .contact-item .contact__desc {
     color: #fff;
