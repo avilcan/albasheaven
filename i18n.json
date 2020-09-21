@@ -10,6 +10,8 @@
     "/comingSoon": ["home", "coming-soon"],
     "/adoption": ["adoption"],
     "/contact":["contact"],
-    "/donate": ["donate"]
+    "/donate": ["donate"],
+    "/facts":["facts"],
+    "/postAdoption":["post-adoption"]
   }
 }

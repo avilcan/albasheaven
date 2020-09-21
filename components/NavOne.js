@@ -64,7 +64,7 @@ class NavOne extends Component {
                                 <div className="col-lg-5">
                                     <div className="top-action-content">
                                         <div className="info-box info-box-1 d-flex align-items-center">
-                                            <ul className="d-flex align-items-center">
+                                            <ul className="d-flex align-items-center" style={{visibility:"hidden"}}>
                                                 <li><a href="#"><i
                                                     className="fa fa-envelope"></i>albasheavenmk@gmail.com</a></li>
                                                 <li><a href="#"><i className="fa fa-phone-square"></i>0620398116</a>
@@ -146,6 +146,8 @@ class NavOne extends Component {
                                                             </ul>
                                                         </li> */}
                                                         <li><Link href="/donate"><a>{t('common:donate')}</a></Link></li>
+                                                        <li><Link href="/facts"><a>{t('common:facts')}</a></Link></li>
+                                                        <li><Link href="/postAdoption"><a>{t('common:postAdoption')}</a></Link></li>
                                                         <li><Link href="/contact"><a>contact</a></Link></li>
                                                     </ul>
                                                     
@@ -198,6 +200,8 @@ class NavOne extends Component {
                                     </ul>
                                 </li> */}
                                 <li className="sidenav__item"><Link href="/donate"><a>{t('common:donate')}</a></Link></li>
+                                <li className="sidenav__item"><Link href="/facts"><a>{t('common:facts')}</a></Link></li>
+                                <li className="sidenav__item"><Link href="/postAdoption"><a>{t('common:postAdoption')}</a></Link></li>
                                 <li className="sidenav__item"><Link href="/contact"><a>contact</a></Link></li>
                             </ul>
                             <ul className="side-social">

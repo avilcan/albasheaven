@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import withTrasnlation from 'next-translate/withTranslation';
 
 class Footer extends Component {
     constructor(){
@@ -31,6 +32,7 @@ class Footer extends Component {
     }
 
     render() {
+        const { t, lang } = this.props.i18n
         return (
             <div>
                 <section className="footer-area">
@@ -140,6 +142,7 @@ class Footer extends Component {
                                 <div className="col-lg-12">
                                     <div className="copyright-desc">
                                         <p>© Copyright 2020 by <a href="#">Alba's Heaven by Marijke Klein</a></p>
+                                        <p>{t('common:footerDisclaimer')}</p>
                                         <p className="icons-attribute-section">Icon made by Freepik from www.flaticon.com</p>
                                     </div>
                                 </div>
@@ -157,4 +160,4 @@ class Footer extends Component {
     }
 }
 
-export default Footer;
+export default withTrasnlation(Footer);

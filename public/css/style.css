@@ -1541,6 +1541,10 @@ a:hover {
 .service-area .adopt-section {
     padding-top:125px;
 }
+
+.service-area .adopt-section .service-heading{
+    width: 100%;
+}
 /*=== heart-icon ===*/
 .service-area .heart-icon {
     position: absolute;
