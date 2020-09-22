@@ -1,5 +1,6 @@
 import React from 'react';
 import useTranslation from 'next-translate/useTranslation';
+import ReadSection from './ReadSection';
 
 const VolunteerArea = () => {
     const {t} = useTranslation();
@@ -17,50 +18,25 @@ const VolunteerArea = () => {
             <img src="/images/heart-icon10.png" alt="" className="heart-icon heart-icon-10" />
             <img src="/images/heart-icon11.png" alt="" className="heart-icon heart-icon-11" />
             <div className="container">
-                <div className="row">
-                    <div className="col-lg-8 mx-auto">
-                        <div className="section-heading service-heading">
-                            <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
-                            </div>
-                            <h2 className="section__title">{t('common:adoption_procedure')}</h2>
-                        </div>
-                        <p className="section__desc">{t('adoption:instructions')}</p>
-                        <p className="section__desc">{t('adoption:instructions_2')}</p>
-                        <p className="section__desc">{t('adoption:instructions_3')}</p>
-                        <p className="section__desc">{t('adoption:instructions_4')}</p>
-                        <div className="section__meta">
-                            <span><a href="/adoption/Vragenlijst.docx" download>{t('adoption:questionare')}</a> | </span>
-                            <span><a href="/adoption/Adoptieoveenkomt.docx" download>{t('adoption:contract')}</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div className="row adopt-section" id="adopt-nl">
-                    <div className="section-heading service-heading">
-                            <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
-                            </div>
-                            <div className="col-lg-8 mx-auto">
-                                <h3 className="section__title">{t('common:adopt_from_nl')}</h3>
-                                <p className="section__desc">{t('adoption:adopt_nl_description')}</p>
-                            </div>
-                    </div>
-                </div> 
-                <div className="row adopt-section" id="adopt-ro">
-                    <div className="section-heading service-heading">
-                            <div className="section-icon">
-                                <img src="/images/section-icon.png" alt="section-icon" />
-                            </div>
-                            <div className="col-lg-8 mx-auto">
-                                <h3 className="section__title">{t('common:adopt_from_ro')}</h3>
-                                <p className="section__desc">{t('adoption:adopt_ro_description_1')}</p>
-                                <p className="section__desc">{t('adoption:adopt_ro_description_2')}</p>
-                                <p className="section__desc">{t('adoption:adopt_ro_description_3')}</p>
-                                <p className="section__desc">{t('adoption:adopt_ro_description_4')}</p>
-                                <p className="section__desc">{t('adoption:adopt_ro_description_5')}</p>
-                            </div>
-                    </div>
-                </div>                       
+                <ReadSection
+                    title="common:adoption_procedure"
+                    paragraphs={["adoption:instructions","adoption:instructions_2","adoption:instructions_3","adoption:instructions_4"]}
+                    links={[{
+                        url:"/adoption/Vragenlijst.docx",
+                        name:"adoption:questionare"
+                    }, {
+                        url:"/adoption/Adoptieoveenkomt.docx",
+                        name:"adoption:contract"
+                    }]}
+                />
+                <ReadSection
+                    title="common:adopt_from_nl"
+                    paragraphs={["adoption:adopt_nl_description"]}
+                />
+                <ReadSection
+                    title="common:adopt_from_ro"
+                    paragraphs={["adoption:adopt_ro_description_1","adoption:adopt_ro_description_2","adoption:adopt_ro_description_3","adoption:adopt_ro_description_4","adoption:adopt_ro_description_5"]}
+                />                      
             </div>
         </section>
     );

@@ -5,7 +5,7 @@ const ReadSection = (props) => {
     const {t} = useTranslation();
     const {title, paragraphs, links} = props;
     return (
-      <div className="row adopt-section">
+      <div className="row reading-section">
         <div className="section-heading service-heading">
             <div className="section-icon">
                  <img src="/images/section-icon.png" alt="section-icon" />
@@ -20,7 +20,9 @@ const ReadSection = (props) => {
                 {links && 
                     <div className="section__meta">
                         {links.map(link => (
-                            <a href={link.url} download>{t(link.name)}</a>
+                            <div>
+                                <a href={link.url} download>{t(link.name)}</a>
+                            </div>
                         ))}
                     </div>
                 }

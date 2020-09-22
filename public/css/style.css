@@ -175,13 +175,9 @@ a:hover {
     font-size: 50px;
     line-height: 60px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
-.section-heading .section__title {
-    font-size: 50px;
-    line-height: 60px;
-    font-weight: 700;
-}
 .section-heading .section__meta {
     color: #863bae;
     font-size: 14px;
@@ -1538,11 +1534,11 @@ a:hover {
     padding-bottom: 120px;
 }
 
-.service-area .adopt-section {
+.service-area .reading-section {
     padding-top:125px;
 }
 
-.service-area .adopt-section .service-heading{
+.service-area .reading-section .service-heading{
     width: 100%;
 }
 /*=== heart-icon ===*/
@@ -4853,4 +4849,14 @@ html {
 .coming-soon-container .dog-inner {
     -webkit-animation: loading 2s infinite;
     animation: loading 2s infinite;
+}
+
+.reading-section .section__desc {
+    text-align: left;
+}
+
+.reading-section .section__meta {
+    font-size: x-large;
+    text-align: left;
+    text-transform: none;
 }
