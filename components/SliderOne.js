@@ -40,7 +40,7 @@ const SliderOne = () => {
                         </div>
                     </div>
                 </div>
-                <div className="single-slide-item slide-bg2">
+                {/* <div className="single-slide-item slide-bg2">
                     <div className="slide-item-table">
                         <div className="slide-item-tablecell">
                             <div className="container">
@@ -56,7 +56,7 @@ const SliderOne = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* <div className="single-slide-item slide-bg3">
                     <div className="slide-item-table">
                         <div className="slide-item-tablecell">
@@ -75,10 +75,10 @@ const SliderOne = () => {
                     </div>
                 </div> */}
                 </Swiper>
-                <div className="owl-dots">
+                {/* <div className="owl-dots">
                     <div onClick={goPrev} className="owl-dot"><span></span></div>
                     <div onClick={goNext} className="owl-dot"><span></span></div>
-                </div>
+                </div> */}
             </div>
         </section>
     );
