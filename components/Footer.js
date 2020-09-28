@@ -117,6 +117,8 @@ class Footer extends Component {
                                         <ul>
                                             {/* <li><a href="#"><i className="fa fa-twitter"></i></a></li> */}
                                             <li><a href="https://www.facebook.com/marijke.kleinvdstaay"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.facebook.com/esther.esther.2121"><i className="fa fa-facebook"></i></a></li>
+                                            <li><a href="https://www.facebook.com/76saskiavdlaan"><i className="fa fa-facebook"></i></a></li>
                                             {/* <li><a href="#"><i className="fa fa-pinterest"></i></a></li>
                                             <li><a href="#"><i className="fa fa-instagram"></i></a></li> */}
                                         </ul>

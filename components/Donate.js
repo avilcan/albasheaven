@@ -26,7 +26,7 @@ const Donate = () => {
                                                 </h3>
                                                 <ul className="blog__list">
                                                     <li><i className="fa fa-address-card-o"></i> A.M. KLEIN - VAN DER STAAY</li>
-                                                    <li>NL06RABO030695565</li>
+                                                    <li>NL06RABO030695865</li>
                                                     <li>{t('donate:donation_details')}</li>
                                                 </ul>
                                                 <p className="blog__desc">{t('donate:thank_you')}</p>

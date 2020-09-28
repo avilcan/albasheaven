@@ -4,6 +4,9 @@ import useTranslation from 'next-translate/useTranslation';
 const ReadSection = (props) => {
     const {t} = useTranslation();
     const {title, paragraphs, links} = props;
+    function createMarkup(text) {
+        return {__html: text};
+    }
     return (
       <div className="row reading-section">
         <div className="section-heading service-heading">
@@ -15,7 +18,7 @@ const ReadSection = (props) => {
                     <h3 className="section__title">{t(title)}</h3>
                 }
                 {paragraphs && paragraphs.map(p => (
-                    <p className="section__desc">{t(p)}</p>
+                    <p className="section__desc" dangerouslySetInnerHTML= {createMarkup(t(p))}/>
                 ))}
                 {links && 
                     <div className="section__meta">

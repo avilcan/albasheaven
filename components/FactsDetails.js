@@ -18,7 +18,7 @@ const FactsDetails = () => {
             <div className="container">
                 <ReadSection
                     title="facts:heading_section_1"
-                    paragraphs={["facts:section_1_p1","facts:section_1_p2","facts:section_1_p3","facts:section_1_p4"]}
+                    paragraphs={["facts:section_1_p1","facts:section_1_p2"]}
                 />   
 
                 <ReadSection
@@ -27,7 +27,7 @@ const FactsDetails = () => {
                 />   
                 <ReadSection
                     title="facts:heading_section_3"
-                    paragraphs={["facts:section_3_p1"]}
+                    paragraphs={["facts:section_3_p1","facts:section_3_p2","facts:section_3_p4","facts:section_3_p4"]}
                 />   
                 <ReadSection
                     title="facts:heading_section_4"
@@ -35,23 +35,23 @@ const FactsDetails = () => {
                 />
                 <ReadSection
                     title="facts:heading_section_5"
-                    paragraphs={["facts:section_5_p1","facts:section_5_p2","facts:section_5_p3"]}
+                    paragraphs={["facts:section_5_p1"]}
                 />
                 <ReadSection
                     title="facts:heading_section_6"
-                    paragraphs={["facts:section_6_p1","facts:section_6_p2","facts:section_6_p3"]}
+                    paragraphs={["facts:section_6_p1","facts:section_6_p2"]}
                 /> 
                 <ReadSection
                     title="facts:heading_section_7"
-                    paragraphs={["facts:section_7_p1","facts:section_7_p2","facts:section_7_p3","facts:section_7_p4"]}
+                    paragraphs={["facts:section_7_p1"]}
                 />
                 <ReadSection
                     title="facts:heading_section_8"
-                    paragraphs={["facts:section_8_p1","facts:section_8_p2","facts:section_8_p3"]}
+                    paragraphs={["facts:section_8_p1"]}
                 />
                 <ReadSection
                     title="facts:heading_section_9"
-                    paragraphs={["facts:section_9_p1","facts:section_9_p2","facts:section_9_p3","facts:section_9_p4","facts:section_9_p5","facts:section_9_p6"]}
+                    paragraphs={["facts:section_9_p1"]}
                 />
                 <ReadSection
                     title="facts:heading_section_10"
@@ -59,11 +59,15 @@ const FactsDetails = () => {
                 />  
                 <ReadSection
                     title="facts:heading_section_11"
-                    paragraphs={["facts:section_11_p1","facts:section_11_p2","facts:section_11_p3","facts:section_11_p4","facts:section_11_p5","facts:section_11_p6","facts:section_11_p7","facts:section_11_p8","facts:section_11_p9"]}
+                    paragraphs={["facts:section_11_p1","facts:section_11_p2","facts:section_11_p3","facts:section_11_p4"]}
                 /> 
                 <ReadSection
                     title="facts:heading_section_12"
-                    paragraphs={["facts:section_12_p1","facts:section_12_p2"]}
+                    paragraphs={["facts:section_12_p1","facts:section_12_p2","facts:section_12_p3","facts:section_12_p4","facts:section_12_p5","facts:section_12_p6","facts:section_12_p7","facts:section_12_p8","facts:section_12_p9","facts:section_12_p10"]}
+                />
+                <ReadSection
+                    title="facts:heading_section_13"
+                    paragraphs={["facts:section_13_p1","facts:section_13_p2","facts:section_13_p3","facts:section_13_p4"]}
                 />                      
             </div>
         </section>
