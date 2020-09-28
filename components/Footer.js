@@ -123,16 +123,16 @@ class Footer extends Component {
                                             <li><a href="#"><i className="fa fa-instagram"></i></a></li> */}
                                         </ul>
                                     </div>
-                                    <ul className="contact__info">
-                                        {/* <li>Koolzaadhof 18a 8308 AR NAGELE, The Netherlands</li>
-                                        <li><a href="mailto:esther.esther.2121@gmail.com">esther.esther.2121@gmail.com</a></li> */}
+                                    {/* <ul className="contact__info">
+                                        <li>Koolzaadhof 18a 8308 AR NAGELE, The Netherlands</li>
+                                        <li><a href="mailto:esther.esther.2121@gmail.com">esther.esther.2121@gmail.com</a></li>
                                         <li>
                                             <p>
                                                 <i className="fa fa-mobile"></i>
                                                 <a className="contact-phone-no" href="tel:0620398116">0620398116</a>
                                             </p>
                                         </li>
-                                    </ul>
+                                    </ul> */}
                                     
                                 </div>
                             </div>

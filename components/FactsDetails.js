@@ -63,11 +63,11 @@ const FactsDetails = () => {
                 /> 
                 <ReadSection
                     title="facts:heading_section_12"
-                    paragraphs={["facts:section_12_p1","facts:section_12_p2","facts:section_12_p3","facts:section_12_p4","facts:section_12_p5","facts:section_12_p6","facts:section_12_p7","facts:section_12_p8","facts:section_12_p9","facts:section_12_p10"]}
+                    paragraphs={["facts:section_12_p1","facts:section_12_p2","facts:section_12_p3","facts:section_12_p4","facts:section_12_p5","facts:section_12_p6","facts:section_12_p7","facts:section_12_p8","facts:section_12_p9","facts:section_12_p10","facts:section_12_p11","facts:section_12_p12","facts:section_12_p13"]}
                 />
                 <ReadSection
                     title="facts:heading_section_13"
-                    paragraphs={["facts:section_13_p1","facts:section_13_p2","facts:section_13_p3","facts:section_13_p4"]}
+                    paragraphs={["facts:section_13_p1"]}
                 />                      
             </div>
         </section>
