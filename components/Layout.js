@@ -10,6 +10,18 @@ const Layout = (props) => {
                 <meta charSet="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
+                <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115862898-2"></script>
+                <script
+                    dangerouslySetInnerHTML={{
+                    __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+
+                        gtag('config', 'UA-115862898-2');}
+                    `,
+                    }}
+                />
                 <link rel="icon" href="/images/favicon.png" />
                 <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css" />
                 <link rel="stylesheet" href="/css/font-awesome.css" />
