@@ -27,7 +27,7 @@ const FactsDetails = () => {
                 />   
                 <ReadSection
                     title="facts:heading_section_3"
-                    paragraphs={["facts:section_3_p1","facts:section_3_p2","facts:section_3_p4","facts:section_3_p4"]}
+                    paragraphs={["facts:section_3_p1","facts:section_3_p2","facts:section_3_p4"]}
                 />   
                 <ReadSection
                     title="facts:heading_section_4"
