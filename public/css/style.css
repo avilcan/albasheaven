@@ -1252,6 +1252,15 @@ a:hover {
     margin-bottom: 14px;
 }
 
+.donate-info-container {
+    display: flex;
+    padding-top: 10px;
+}
+
+.donate-info-item .side-widget {
+    min-height: 355px;
+}
+
 /*===================================
     BREADCRUMB AREA
 =====================================*/

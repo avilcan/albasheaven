@@ -14,22 +14,42 @@ const Donate = () => {
                             <p>{t('donate:remote_adoption')}</p>
                             <p>{t('donate:donation_appreciated')}</p>
                             <p>{t('donate:donation_instructions')}</p>
-                            <div className="col-lg-4 bank-details">
-                                <div className="sidebar-shared">
-                                    <div className="side-widget blog-content">
-                                        <div className="blog-item">
-                                            <div className="blog-img">
-                                                <img src="/images/img15.jpg" alt="" />
+                            <div className="donate-info-container">
+                                <div className="col-lg-6 bank-details donate-info-item">
+                                    <div className="sidebar-shared">
+                                        <div className="side-widget blog-content">
+                                            <div className="blog-item">
+                                                <div className="blog-img">
+                                                    <img src="/images/img15.jpg" alt="" />
+                                                </div>
+                                                <div className="blog-inner-content">
+                                                    <h3 className="blog__title">Bank
+                                                    </h3>
+                                                    <ul className="blog__list">
+                                                        <li><i className="fa fa-address-card-o"></i> A.M. KLEIN - VAN DER STAAY</li>
+                                                        <li>NL06RABO0306955865</li>
+                                                        <li>{t('donate:donation_details')}</li>
+                                                    </ul>
+                                                    <p className="blog__desc">{t('donate:thank_you')}</p>
+                                                </div>
                                             </div>
-                                            <div className="blog-inner-content">
-                                                <h3 className="blog__title">Bank
-                                                </h3>
-                                                <ul className="blog__list">
-                                                    <li><i className="fa fa-address-card-o"></i> A.M. KLEIN - VAN DER STAAY</li>
-                                                    <li>NL06RABO0306955865</li>
-                                                    <li>{t('donate:donation_details')}</li>
-                                                </ul>
-                                                <p className="blog__desc">{t('donate:thank_you')}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-6 donate-info-item">
+                                    <div className="sidebar-shared">
+                                        <div className="side-widget blog-content">
+                                            <div className="blog-item">
+                                                <div className="blog-img">
+                                                    <img src="/images/img15.jpg" alt="" />
+                                                </div>
+                                                <div className="blog-inner-content">
+                                                    <ul className="blog__list">
+                                                        <li><i className="fa fa-address-card-o"></i>{t('donate:our_details')}</li>
+                                                        <li>{t('donate:kvk')}</li>
+                                                        <li>{t('donate:regisstration_number')}</li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
